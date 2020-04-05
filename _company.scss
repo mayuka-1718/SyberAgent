@@ -1,0 +1,22 @@
+.company {
+  flex: auto;
+  width: 33%;
+  &__logo {
+    width: 90%;
+    border-radius: 20px;
+    background-color: white;
+  }
+  &__detail {
+    display: flex;
+    margin: 0 auto;
+    list-style: none;
+  }
+  &__newGraduate {
+    padding: 15px 0 15px 0;
+    text-align: center;
+  }
+  &__careersRecruit {
+    padding: 15px 0 15px 0;
+    text-align: center;
+  }
+}

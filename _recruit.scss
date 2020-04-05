@@ -1,0 +1,27 @@
+.recruit {
+  margin-right: 35px;
+  &__title {
+    font-size: 22px;
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    border-bottom: solid 2px rgb(236, 234, 234);
+    text-align: initial;
+  }
+  &__courses {
+    display: flex;
+    list-style: none;
+  }
+  &__course {
+    color: rgb(236, 234, 234);
+    font-size: 18px;
+    text-decoration: none;
+  }
+  &__text {
+    color: rgb(236, 234, 234);
+    font-size: 18px;
+    text-decoration: none;
+  }
+}
+.fa-angle-right {
+  margin-right: 40px;
+}

@@ -1,0 +1,23 @@
+.top {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 70px;
+  padding-top: 200px;
+  background-image: url(img/categoryHero_bg.jpg);
+  background-size: cover;
+  color: rgb(241, 238, 238);
+  &__title {
+    padding: 0 0 20px;
+    font-size: 55px;
+    text-align: center;
+  }
+  &__heading {
+    font-size: 20px;
+    padding: 0 0 70px;
+    text-align: center;
+  }
+  &__inner {
+    display: flex;
+    width: 100%;
+  }
+}
